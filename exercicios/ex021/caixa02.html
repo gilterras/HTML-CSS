@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: darkgrey;
+        }
+        main { 
+            background-color: grey;
+            margin-bottom: 20px;
+
+        }
+        article > aside {
+            font-style: italic;
+        }
+        header {
+            background-color: grey;
+            padding: 10px;
+        
+        }
+        nav {
+            background-color: lightslategray;
+            width: 300px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.548);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            margin-right: 30px;
+            
+        }
+        footer {
+            text-align: center;
+            color: white;
+            background-color: black;
+            padding: 4px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Meu site com tags semânticas</h1>
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+
+        </section>
+        <section id="Notícias">
+            <article>
+                <h2>Terceira Guerra Mundial</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, veritatis velit quidem repellendus iure adipisci ullam autem sapiente dolores consequuntur? Accusantium temporibus, eum perferendis fugiat quibusdam asperiores odio illum enim.</p>
+                <aside>Artigo escrito por Paula Tejano</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Astrogildo Terras Neto</p>
+    </footer>
+</body>
+</html>
